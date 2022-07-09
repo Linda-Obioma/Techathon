@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-color: rgba(200, 210, 231, 0.5);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500, 700, 900;
+}
+
+.main {
+  width: 400px;
+  height: 560px;
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.hero {
+  width: 100%;
+}
+
+#image1 {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+.body {
+  text-align: center;
+}
+
+h2 {
+  padding-top: 25px;
+}
+
+#main_para {
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.order_plan {
+  color: hsl(223, 47%, 23%);
+}
+
+.para {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+}
+
+.subscription {
+  background: hsl(225, 100%, 98%);
+  text-align: center;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#image2 {
+  padding: 6px;
+}
+
+.order {
+  padding: 10px 50px 10px 5px;
+  height: 50%;
+}
+
+#reverse {
+  margin: auto;
+}
+
+a :hover {
+  color: rgb(114, 76, 252);
+}
+
+#plan {
+  padding-bottom: 5px;
+}
+
+#btn {
+  height: 35px;
+  background: hsl(245, 75%, 52%);
+  border: 0;
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+  color: white;
+  box-shadow: 0 10px 12px 7px hsl(240, 70%, 94%);
+}
+
+#button :hover {
+  background-color: rgb(114, 76, 252);
+}
+
+#cancel {
+  text-align: center;
+  padding: 20px;
+}
+
+#cancel :hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 25px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
